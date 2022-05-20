@@ -50,6 +50,6 @@ public class MainActivity extends AppCompatActivity {
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
     }
     private void getWeatherInfo(String cityName){
-        String url="http://api.weatherapi.com/v1/forecast.json?key=c58cc052264947939b695852220105&q="+cityName+"&days=1&aqi=no&alerts=no"
+        String url="http://api.weatherapi.com/v1/forecast.json?key=c58cc052264947939b695852220105&q="+cityName+"&days=1&aqi=no&alerts=no";
     }
 }
